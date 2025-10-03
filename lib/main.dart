@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:before_provider_using_setstate_rebuild_ui/home_screen_stateless.dart';
 import 'package:before_provider_using_setstate_rebuild_ui/stateful_widget_screen.dart';
+import 'package:before_provider_using_setstate_rebuild_ui/why_provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: StatefulWidgetScreen(),
+      home: WhyProviderScreen(),
     );
   }
 }
